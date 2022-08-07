@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nome = prompt("Qual o seu nome?")
+        const idade = prompt('qual a sua idade?')
+        const ling = prompt('Qual linguagem de programação você está estudando?')
+
+        const msg = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${ling}`
+        alert(msg)
+        const res = prompt('Você gosta de estudar' +ling+ '? Responda com o numero 1 para sim ou 2 para não.')
+        if (res == 1) {
+            alert('Muito bom! Continue estudando e você terá muito sucesso.')
+        }else{
+            alert('Ahh que pena... Já tentou aprender outras linguagens?')
+        }
+    </script>
+</body>
+</html>
